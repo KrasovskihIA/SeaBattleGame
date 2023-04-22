@@ -37,3 +37,29 @@ class Ship:
     # запись нового значения в коллекцию _cells
     def __setitem__(self, key, value):
         self._cells[key] = value
+
+# Класс игрового поля
+class GamePole:
+    def __init__(self, size=10):
+        self._size = size
+        self._ships = []
+
+    # начальная инициализация игрового поля
+    def init(self):
+        pass
+
+    # возвращает коллекцию _ships  
+    def get_ships(self):
+        pass
+
+    # перемещает каждый корабль из коллекции _ships на одну клетку
+    def move_ships(self):
+        pass
+
+    # отображение игрового поля в консоли
+    def show(self):
+        pass
+
+    #  получение текущего игрового поля
+    def get_pole(self):
+        pass
